@@ -1,0 +1,70 @@
+.banner{
+	height: 750px;
+	background-image: url(wall.jpg);
+	background-size: 100% 100%;
+}
+@font-face{
+	font-family: qwerty;
+	src: url(qwerty.ttf);
+}
+.text{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: arial;
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+.info{
+	height: 1500;
+	background-color: orange;
+}
+body{
+	margin: 0;
+}
+
+.photo{
+	height: 500px;
+	background-color: orange;
+	padding-top: 50px;
+
+}
+.top{
+	height: 100px;
+	background-color: orange;
+}
+.parent{
+	height: 500px;
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	margin-bottom: 30px;
+	background-color: none;
+}
+.parent2{
+	height: 400px;
+}
+.child{
+	background-color: none;
+	margin-left: 50px;
+	height: 500px;
+	width: 500px;
+}
+.mleft{
+	margin-left: 120px;
+}
+.block{
+	margin-left: 25px;
+	height: 400px;
+	width: 400px;
+	background-color: red;
+}
+.img{
+	height: 500px;
+	width: 500px;
+}
+.pic{
+	height: 400px;
+	width: 400px;
+}
